@@ -1,0 +1,38 @@
+@import url('http://fonts.googleapis.com/css?family=Amarante');
+
+
+#keywords {
+  margin: 0 auto;
+ 
+  margin-bottom: 15px;
+}
+
+
+#keywords thead {
+	 background:#313637;
+  cursor: pointer;
+  }
+#keywords thead tr th { 
+  
+  padding: 12px 30px;
+  padding-left: 88px;
+}
+#keywords thead tr th span { 
+	
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+ 
+}
+
+#keywords thead tr th.headerSortUp span {
+  background-image: url('up-arrow.png');
+}
+#keywords thead tr th.headerSortDown span {
+  background-image: url('down-arrow.png');
+}
+
+         
